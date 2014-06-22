@@ -22,9 +22,7 @@ namespace MyTicTacToe
 
             var gameController = new GameController(puzzleContent, player0, player1);
 
-
-
-            gameController.GameEventHappened += (o, e) =>{
+			gameController.GameEventHappened += (o, e) =>{
 			
 				string stringToShow = string.Empty;
 
